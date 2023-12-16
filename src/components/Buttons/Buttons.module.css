@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.primaryDark {
+    font-family: 'poppins';
+    background: var(--clr-dark);
+    color: var(--clr-light);
+    border: 2px solid var(--clr-dark);
+    width: 13.75rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: .625rem 1.125rem;
+    border-radius: 0.3125rem;
+    transition: 0.2s all;
+    cursor: pointer;
+
+}
+
+.primaryLight {
+    font-family: 'poppins';
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    border: 2px solid var(--clr-dark);
+    width: 13.75rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: .625rem 1.125rem;
+    border-radius: 0.3125rem;
+    transition: 0.2s all;
+    /* align-self: flex-end; */
+    cursor: pointer;
+
+}
+
+.primaryDark:hover {
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    border: 2px solid var(--clr-dark);
+    transition: 0.2s all;
+}
+
+
+.primaryLight:hover {
+    background: var(--clr-dark);
+    color: var(--clr-light);
+    border: 2px solid var(--clr-dark);
+    transition: 0.2s all;
+}
